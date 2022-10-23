@@ -1,4 +1,4 @@
-<< << << < HEAD {
+{
     "name": "project-js-astro-weight",
     "version": "0.1.0",
     "scripts": {
@@ -13,8 +13,7 @@
         "nightmare": "^2.8.0",
         "node-static": "^0.7.9"
     }
-} ===
-=== = {
+} {
     "name": "project-js-astro-weight",
     "version": "0.1.0",
     "scripts": {
@@ -29,5 +28,6 @@
         "nightmare": "^2.8.0",
         "node-static": "^0.7.9"
     }
-} >>>
->>> > 4e ef13e4351a06740d65bc46b7a581b21a52bfed
+}
+
+4e ef13e4351a06740d65bc46b7a581b21a52bfed
