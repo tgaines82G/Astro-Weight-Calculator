@@ -16,38 +16,39 @@
 
         <div class="overlay">
 
-            <video class="bg-video" type="video/mp4" src="Earth_Zoom_Out_preview.mp4">
+            <video class="bg-video" type="video/mp4" src="Earth_Zoom_Out_preview.mp4" autoplay muted>
+              <track label="English" kind="captions" srclang="en" src="Earth_Zoom_Out_preview.mp4" default>
                 </video>
         </div>
 
-        <div class=" card " style="width: 60rem; ">
+        <div class="card" style="width: 60rem;">
 
-            <div class="card-body ">
+            <div class="card-body">
                 <div>
                     <h1 class="card-title ">Astro Calculator</h1>
-                    <img class="UFO " src="661785383ufo-flying-saucer-animated-gif-image-11.gif " alt="flying UFO ">
+                    <img class="UFO" src="661785383ufo-flying-saucer-animated-gif-image-11.gif " alt="flying UFO ">
 
                 </div>
-                <div class="container3 ">
-                    <input id="user-weight " type="text " placeholder="Weight (lbs) " />
+                <div class="container3">
+                    <input id="user-weight" type="text" placeholder="Weight (lbs)" />
                     <!--Planet select drop down menu---->
-                    <label class="planet-label " for="planets ">Choose a Planet:</label>
-                    <select name="planet " id="planets ">
-                <option value=" "></option>
+                    <label class="planet-label" for="planets">Choose a Planet:</label>
+                    <select name="planet" id="planets">
+                    <option value=" "></option>
                 </select>
 
 
-                    <p class="output-text " type="text " id="output "></p>
+                    <p class="output-text" type="text" id="output"></p>
                 </div>
                 <div class="container2 ">
-                    <button id="calculate-button " onclick="onclick() " class="btn btn-info btn-lg ">Calculate</button>
+                    <button id="calculate-button" onclick="onclick()" class="btn btn-info btn-lg ">Calculate</button>
                 </div>
             </div>
         </div>
 
     </div>
 
-    <script src="main.js " charset="utf-8 "></script>
+    <script src="main.js" charset="utf-8 "></script>
 </body>
 
 </html>
